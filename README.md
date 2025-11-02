@@ -1,10 +1,15 @@
 # Tria Assignment - Contact List Application
 
-A modern React-based contact management application that allows users to view, search, and add contacts with a clean, responsive interface.
+I have deployed in vercel : https://triaassignment-six.vercel.app/
 
-## 🚀 Live Demo
+Backend is hosted in AWS, and set the apis to store data of contact list and other things there only, postgres database.
+I have also made some more contact list : 
 
-**Deployed Application:** [Contact List App](https://your-vercel-url.vercel.app)
+1. ecell.in/esummit/contact
+2. https://www.ecell.in/ca/#contact
+
+I have made the list basically department wise assuming it is for to collect the data of the institue if it is for other pupose like a directory then there might not be any need of images, and a simple list may do.
+
 
 ## 📋 Features
 
@@ -15,9 +20,7 @@ A modern React-based contact management application that allows users to view, s
 
 ### Additional Features
 - **Department Grouping**: Contacts automatically categorized by department
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
 - **Form Validation**: Client-side validation with user-friendly error messages
-- **Photo Upload**: Support for profile picture uploads
 - **Real-time API Integration**: Live backend integration for data persistence
 
 ## 🛠️ Tech Stack
