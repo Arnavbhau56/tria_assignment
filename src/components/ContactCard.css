@@ -1,0 +1,89 @@
+.contact-card {
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-card figure {
+  width: 300px;
+  height: 200px;
+  background: radial-gradient(circle at top left, #5A5A73, #111158);
+  border-radius: 1rem;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: inset 4px 4px 15px rgba(0, 0, 0, 1);
+}
+
+.contact-card figure img {
+  position: absolute;
+  top: -11%;
+  left: 0%;
+  width: 50%;
+  transform: translate(0, 0) scale(1.2);
+}
+
+.contact-card .info {
+  position: absolute;
+  top: 15%;
+  left: 55%;
+  color: white;
+  text-align: left;
+  z-index: 2;
+}
+
+.profile-name {
+  font-size: 1.4rem;
+  font-family: 'Poppins', sans-serif;
+  margin: 0.1rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.profile-designation {
+  font-size: 0.8rem;
+  margin-top: 4px;
+  font-style: italic;
+}
+
+.contact-card .icons {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.contact-card .circle {
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-decoration: none;
+  color: #2c39b2;
+}
+
+.contact-card .circle i {
+  font-size: 16px;
+}
+
+.contact-card .circle:hover {
+  background-color: #1a73e8;
+  color: white;
+}
+
+.contact-card .circle i:hover {
+  color: white;
+}
+
+@media (max-width: 400px) {
+  .contact-card figure {
+    width: 280px;
+    height: 180px;
+  }
+  
+  .profile-name {
+    font-size: 1.2rem;
+  }
+}
