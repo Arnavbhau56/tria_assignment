@@ -45,7 +45,7 @@ const AddContactForm: React.FC<AddContactFormProps> = ({ onClose, onContactAdded
         customClass: {
           popup: 'swal-popup',
           title: 'swal-title',
-          content: 'swal-content'
+          htmlContainer: 'swal-content'
         }
       });
       return;
@@ -59,7 +59,7 @@ const AddContactForm: React.FC<AddContactFormProps> = ({ onClose, onContactAdded
         customClass: {
           popup: 'swal-popup',
           title: 'swal-title',
-          content: 'swal-content'
+          htmlContainer: 'swal-content'
         }
       });
       return;
@@ -92,7 +92,7 @@ const AddContactForm: React.FC<AddContactFormProps> = ({ onClose, onContactAdded
           customClass: {
             popup: 'swal-popup',
             title: 'swal-title',
-            content: 'swal-content'
+            htmlContainer: 'swal-content'
           }
         });
         onContactAdded();
@@ -105,7 +105,7 @@ const AddContactForm: React.FC<AddContactFormProps> = ({ onClose, onContactAdded
           customClass: {
             popup: 'swal-popup',
             title: 'swal-title',
-            content: 'swal-content'
+            htmlContainer: 'swal-content'
           }
         });
       }
@@ -117,7 +117,7 @@ const AddContactForm: React.FC<AddContactFormProps> = ({ onClose, onContactAdded
         customClass: {
           popup: 'swal-popup',
           title: 'swal-title',
-          content: 'swal-content'
+          htmlContainer: 'swal-content'
         }
       });
     }
